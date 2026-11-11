@@ -2,7 +2,7 @@
 
 It is primamry designed for the Vax station 3100 M38, but can be used for other computers that require a specific power good (DCOK) delay, protection and diagnostic. Diagnostic is via messages on the serial port from the Arduino.
 
-# Cuurent firmware functionality
+# Current firmware functionality
 
 sfsdfsdf
 
