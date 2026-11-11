@@ -13,7 +13,7 @@ A retro atx power adapter for retro computers that focuses on the POWER GOOD (PG
 
 This project is provided **"AS IS", without any warranty or guarantee of safety, reliability, or fitness for a particular purpose.** To the extent permitted by applicable law, the author and individual contributors disclaim liability for personal injury, death, property damage, or equipment damage resulting from the assembly, modification, installation, or use of these PSU adapters.
 
-**You build and use these adapters entirely at your own risk.**
+**You build and use these adapters entirely at your own risk!**
 
 Electricity is dangerous and must never be taken lightly. Incorrect wiring, inadequate grounding, short circuits, or improper handling can cause serious injury, electric shock, fire, or permanent damage to your computer and its components.
 
