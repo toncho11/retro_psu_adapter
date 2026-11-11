@@ -27,7 +27,7 @@ Always observe the following safety precautions:
 - **Verify all connections, pinouts, polarities, and voltage levels before powering on the computer.**
 - **Never bypass protective grounding or other safety mechanisms.**
 
-**A particularly dangerous situation can occur when an exposed conductive surface becomes energized due to a fault.** You may initially feel nothing if there is no effective current path through your body. However, touching another conductive or grounded surface with your hand, leg, or another part of your body can complete that path, allowing potentially lethal current to flow. **The absence of an electric shock does not mean a surface is safe to touch.**
+**A particularly dangerous situation can occur when an exposed conductive surface becomes energized due to a fault.** You may initially feel nothing if there is no effective current path through your body. However, touching another conductive or grounded surface with your hand, leg, or another part of your body can complete that path, allowing potentially lethal current to flow. **The absence of an electric shock does not mean a surface is safe to touch!**
 
 These adapters are experimental hardware intended for users with appropriate electronics knowledge and experience. They are **NOT certified safety devices** and must **NOT** be assumed to provide protection against electrical shock, fire, or equipment damage.
 
