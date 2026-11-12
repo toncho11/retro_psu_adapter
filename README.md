@@ -4,7 +4,7 @@ A retro ATX power adapter for retro computers that focuses on the POWER GOOD (PG
 # Models
 | Model | Status | Description |
 |---|---|---|
-| [Model_AA](https://github.com/toncho11/retro_psu_adapter/tree/main/Model_AA) | Available | Handles PG and delays. Provides light voltage protection and diagnostic. Does not handle the high current rails of the ATX PSU, this is done by the DS1188. |
+| [Model_AA](https://github.com/toncho11/retro_psu_adapter/tree/main/Model_AA) | Available | Handles PG and delays. Provides light voltage protection and diagnostic. Does not handle the high current rails of the ATX PSU (except for 5V TAP), this is done by the DS1188. |
 | Model_BB | Planned | Same as Model_AA, but now it handles the high current rails from the ATX PSU. Adds fan connectors. Should disable PSU if a fan has stopped for more than 1 minute. |
 
 # Disclaimer
