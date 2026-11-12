@@ -9,7 +9,7 @@ sfsdfsdf
 # How to build
 
 * Print pcb
-* Check BOM, order components
+* Check BOM, order components, order DS1188
 * solder electronic components
 * check [warnings section](https://github.com/toncho11/retro_psu_adapter/blob/main/Model_AA/README.md#warnings)!!!
 * compile and install firmware on the Arduino Nano
