@@ -1,21 +1,25 @@
 # Target
 
-Model AA is primamry designed for the Vax station 3100 M38, but can be used for other computers that require a specific power good (DCOK) delay, protection and diagnostic. Diagnostic is via messages on the serial port from the Arduino.
+Model AA is primary designed for the DEC Vax station 3100 M38, but can be used for other computers that require a specific power good (DCOK) delay, protection and diagnostic. Diagnostic is via messages on the serial port from the Arduino.
+
+<img src="images/20261108_111525.jpg" alt="Model AA" width="500"> 
+The Protective Earth (PE) is not available on this photo. More images are available at: [Images](https://github.com/toncho11/retro_psu_adapter/tree/main/Model_AA/images)
 
 # Current firmware functionality
+gsgddfgdfgd
 
-sfsdfsdf
 
 # How to build
 
 * Print pcb
-* Check BOM, order components, order DS1188
-* solder electronic components
-* check [warnings section](https://github.com/toncho11/retro_psu_adapter/blob/main/Model_AA/README.md#warnings)!!!
-* compile and install firmware on the Arduino Nano
-* tap into the 5V near the motherboard's connector and the GND - these are inputs on the PCB
-* calibrate the TAP 5V - ...
-* test before connecting to a motherboard
+* Check BOM, order components
+* Order [DS1188 ATX splitter](https://www.amazon.com/clp/B01NBU2C64). Other splitters might be cheaper, but this one is the only one that seems to have really tick tracks that can sustain hight current.
+* Solder the electronic components
+* Check [warnings section](https://github.com/toncho11/retro_psu_adapter/blob/main/Model_AA/README.md#warnings)!!!
+* Compile and install firmware on the Arduino Nano
+* Tap into the 5V near the motherboard's connector and the GND - these are inputs on the PCB
+* Calibrate the TAP 5V - ...
+* Test before connecting to a motherboard
 
 # Warnings
 
