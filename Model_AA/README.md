@@ -11,7 +11,7 @@ sfsdfsdf
 * Print pcb
 * Check BOM, order components
 * solder electronic components
-* check warnings
+* check [warnings section](https://github.com/toncho11/retro_psu_adapter/blob/main/Model_AA/README.md#warnings)!!!
 * compile and install firmware on the Arduino Nano
 * tap into the 5V near the motherboard's connector and the GND - these are inputs on the PCB
 * calibrate the TAP 5V - ...
