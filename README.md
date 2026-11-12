@@ -1,10 +1,10 @@
 # What is it?
-A retro atx power adapter for retro computers that focuses on the POWER GOOD (PG) signal (also called DCOK), voltage protection and diagnostic for old computers such as DEC VAX 3100 M38 and SGI Indy. This project can be used if your original power supply unit (PSU) has failed or you prefer not to use it.
+A retro ATX power adapter for retro computers that focuses on the POWER GOOD (PG) signal (also called DCOK), voltage protection and diagnostic for old computers such as DEC VAX 3100 M38 and SGI Indy. This project can be used if your original power supply unit (PSU) has failed or you prefer not to use it.
 
 # Models
 | Model | Status | Description |
 |---|---|---|
-| [Model_AA](https://github.com/toncho11/retro_psu_adapter/tree/main/Model_AA) | Available | Handles PG and delays. Provides light voltage protection and diagnostic. Does not handle the high current rails of the PSU, this is done by the DS1188. |
+| [Model_AA](https://github.com/toncho11/retro_psu_adapter/tree/main/Model_AA) | Available | Handles PG and delays. Provides light voltage protection and diagnostic. Does not handle the high current rails of the ATX PSU, this is done by the DS1188. |
 | Model_BB | Planned | Same as Model_AA, but now it handles the high current rails from the ATX PSU. Adds fan connectors. Should disable PSU if a fan has stopped for more than 1 minute. |
 
 # Disclaimer
