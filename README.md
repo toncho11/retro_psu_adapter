@@ -4,8 +4,9 @@ A retro ATX power adapter for retro computers that focuses on the POWER GOOD (PG
 # Models
 | Model | Status | Description |
 |---|---|---|
-| [Model_AA](https://github.com/toncho11/retro_psu_adapter/tree/main/Model_AA) | Available | Handles PG and delays. Provides light voltage protection and diagnostic. Does not handle the high current rails of the ATX PSU (except for 5V TAP), this is done by the DS1188. |
-| Model_BB | Planned | Same as Model_AA, but now it handles the high current rails from the ATX PSU. Adds fan connectors. Should disable PSU if a fan has stopped for more than 1 minute. |
+| [Model_AA](https://github.com/toncho11/retro_psu_adapter/tree/main/Model_AA) | Available | Handles PG and delays. Provides light voltage protection and diagnostic. Does not handle the high current rails of the ATX PSU (except for 5V TAP), this is done by the DS1188. Its primary goal is allow the VAX 3100 M38 to boot reliably. |
+| Model_BB | Planned | Same as Model_AA, but now it handles the high current rails from the ATX PSU. Adds fan connectors. Should disable PSU if a fan has stopped for more than 1 minute. Could support both VAX and Indy using the correct firmware (TBD)|
+| Model_CC | Planned | Based on Model BB and it will support more features specific to SGI Indy |
 
 # Disclaimer
 
