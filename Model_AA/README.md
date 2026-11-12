@@ -8,9 +8,9 @@ The Protective Earth (PE) between the case and the PSU is not available on this 
 # Current firmware functionality
 gsgddfgdfgd
 
-
 # How to build
 
+* find a compatible ATX power supply ...
 * Print pcb
 * Check BOM, order components
 * Order [DS1188 ATX splitter](https://www.amazon.com/clp/B01NBU2C64). Other splitters might be cheaper, but this one is the only one that seems to have really tick tracks that can sustain hight current. Ordering to Europe is expensive.
