@@ -3,7 +3,7 @@
 Model AA is primary designed for the DEC Vax station 3100 M38, but can be used for other computers that require a specific power good (DCOK) delay, protection and diagnostic. Diagnostic is via messages on the serial port from the Arduino.
 
 <img src="images/20261108_111525.jpg" alt="Model AA" width="500"> 
-The Protective Earth (PE) is not available on this photo. More images are available at: <a href="https://github.com/toncho11/retro_psu_adapter/tree/main/Model_AA/images">Images</a>
+The Protective Earth (PE) between the case and the PSU is not available on this photo. More images are available at: <a href="https://github.com/toncho11/retro_psu_adapter/tree/main/Model_AA/images">Images</a>
 
 # Current firmware functionality
 gsgddfgdfgd
