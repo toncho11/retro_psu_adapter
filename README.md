@@ -13,7 +13,7 @@ A retro atx power adapter for retro computers that focuses on the POWER GOOD (PG
 
 This project is provided **"AS IS", without any warranty or guarantee of safety, reliability, or fitness for a particular purpose.** To the extent permitted by applicable law, the author and individual contributors disclaim liability for personal injury, death, property damage, or equipment damage resulting from the assembly, modification, installation, or use of these PSU adapters.
 
-**You build and use these adapters entirely at your own risk!**
+**You build and use these adapters entirely at your own risk!** These adapters are experimental hardware intended for users with appropriate electronics knowledge and experience. They are **NOT certified safety devices** and must **NOT** be assumed to provide protection against electrical shock, fire, or equipment damage.
 
 Electricity is dangerous and must never be taken lightly. Incorrect wiring, inadequate grounding, short circuits, or improper handling can cause serious injury, electric shock, fire, or permanent damage to your computer and its components.
 
@@ -29,6 +29,6 @@ Always observe the following safety precautions:
 
 **A particularly dangerous situation can occur when an exposed conductive surface becomes energized due to a fault.** You may initially feel nothing if there is no effective current path through your body. However, touching another conductive or grounded surface with your hand, leg, or another part of your body can complete that path, allowing potentially lethal current to flow. **The absence of an electric shock does not mean a surface is safe to touch!**
 
-These adapters are experimental hardware intended for users with appropriate electronics knowledge and experience. They are **NOT certified safety devices** and must **NOT** be assumed to provide protection against electrical shock, fire, or equipment damage.
+
 
 **If you are unsure about any aspect of electrical safety, do not proceed without assistance from a qualified professional.**
