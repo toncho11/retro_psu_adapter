@@ -1,6 +1,9 @@
 # What is it?
 A retro ATX power adapter for retro computers that focuses on the POWER GOOD (PG) signal (also called DCOK), voltage protection and diagnostic for old computers such as DEC VAX 3100 M38 and SGI Indy. This project can be used if your original power supply unit (PSU) has failed or you prefer not to use it.
 
+<img src="images/20261108_110913.jpg" alt="PSU Adapter" width="300">
+An early Model AA prototype.
+
 # Models
 | Model | Status | Description |
 |---|---|---|
