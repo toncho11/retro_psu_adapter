@@ -7,21 +7,21 @@ The Protective Earth (PE) between the case and the PSU is not available on this 
 
 # Current functionality
 
-The adapter monitor the power good (PG) of the ATX PSU. It also monitors the 5V rail neat the the motherboard connector. This is called 5V TAP. Once both of them have been stable for specific amount of time (1 second for example) the adapter sends a valid DC OK to the VAX. Pull down resistors are incorporated to avoid dangling signals and prevent accendental startup or shutdown. The card has two diagnostic leds - greend and red. TODO
+The adapter monitor the power good (PG) of the ATX PSU. It also monitors the 5V rail neat the the motherboard connector. This is called 5V TAP. Once both of them have been stable for specific amount of time (1 second for example) the adapter sends a valid DC OK to the VAX. Pull down resistors are incorporated to avoid dangling signals and prevent accendental startup or shutdown. The card has two diagnostic leds - greend and red. TODO1
 
 # How to build
 
-* check the [VAX 3100 M38 PSU doc](https://github.com/toncho11/retro_psu_adapter/blob/main/docs/vax_3100_m38/vax_3100_M38_doc.md)
-* find a compatible ATX power supply ... Availabe ... TODO
+* check the [VAX 3100 M38 PSU doc](https://github.com/toncho11/retro_psu_adapter/blob/main/docs/vax_3100_m38/vax_3100_M38_doc.md) to understand what voltages and max current you need
+* find a compatible ATX power supply. A list is available [here](https://github.com/toncho11/retro_psu_adapter/blob/main/docs/vax_3100_m38/compatible_psu.md). Only the Antec model is tested. 
 * Print pcb
-* Check BOM, order components TODO
+* Check BOM, order components TODO2
 * Order [DS1188 ATX splitter](https://www.amazon.com/clp/B01NBU2C64). Other splitters might be cheaper, but this one is the only one that seems to have really tick tracks that can sustain hight current. Ordering to Europe is expensive.
 * Solder the electronic components
 * Check [warnings section](https://github.com/toncho11/retro_psu_adapter/blob/main/Model_AA/README.md#warnings-and-important-notes-including-hardware-and-personal-safety-and-software) for personal and hardware safety and other important notes!!!
 * Compile and install firmware on the Arduino Nano
 * Connect the male 14 pin connector to both DS1188 and the ATX adapter. Use pins provided in the doc ... TODO for the DS118 and the PCB labels. 
 * Tap into the 5V near the motherboard's connector and the GND - these are inputs for the PCB
-* Calibrate the TAP 5V - ... TODO
+* Calibrate the TAP 5V - ... TODO3
 * Test before connecting to a motherboard
 
 # Warnings and important notes (including hardware and personal **safety** and software)
