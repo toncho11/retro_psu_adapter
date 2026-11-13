@@ -38,10 +38,12 @@ The DEC maintenance voltage table above **does not specify H7821 Model 38 per-ra
 | +5 V | +5.1 V | ~15–18 A is an estimate, not a confirmed Model 38 continuous rating. |
 | +12 V | +12.1 V | ~4.5–6 A is an estimate, not a confirmed Model 38 rating; additional drive loads may exist on separate harnesses. Mainly used by the disk drives, floppy and other peripherals. |
 | −12 V | −12.1 V | Between 0.1A and 0.8A, but most likely 0.3A. Probably used only for the serial port, which consumes around 0.1A. |
-| Isolated −9 V | −9 V across pins 13–14 | Precise Model 38 max current not established. Must be provided from an isolated source on pins 13 and 14. Used only for networking. Not critical for operating the Vax |
+| Isolated −9 V | −9 V across pins 13–14 | Precise Model 38 max current not established. Must be provided from an isolated source on pins 13 and 14. Used only for networking. Not critical for operating the Vax. |
 | DCOK | Logic signal | Power good signal |
 
-The **180 W** figure, if confirmed on the H7821 supply, is an overall output power figure, **not** a license to draw the full 180 W from any single rail. Verify actual nameplate ratings and harness/connector limits.
+WARNING: For an ATX splitter, use only one with sufficiently tick tracks that can suppoirt the above high currents.
+
+The **180 W** figure does not mean a single rail can draw the full 180 W. Also 5V 18A are separated in several 5V rails and several GND rails. 
 
 ## How to reproduce the isolated −9 V output
 
