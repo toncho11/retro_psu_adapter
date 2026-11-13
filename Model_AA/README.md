@@ -16,7 +16,7 @@ The adapter monitor the power good (PG) of the ATX PSU. It also monitors the 5V 
 * Check BOM, order components TODO
 * Order [DS1188 ATX splitter](https://www.amazon.com/clp/B01NBU2C64). Other splitters might be cheaper, but this one is the only one that seems to have really tick tracks that can sustain hight current. Ordering to Europe is expensive.
 * Solder the electronic components
-* Check [warnings section](https://github.com/toncho11/retro_psu_adapter/blob/main/Model_AA/README.md#warnings)!!!
+* Check [warnings section](https://github.com/toncho11/retro_psu_adapter/blob/main/Model_AA/README.md#warnings-and-important-notes-including-hardware-and-personal-safety-and-software) for personal and hardware safety and other important notes!!!
 * Compile and install firmware on the Arduino Nano
 * Connect the male 14 pin connector to both DS1188 and the ATX adapter. Use pins provided in the doc ... TODO for the DS118 and the PCB labels. 
 * Tap into the 5V near the motherboard's connector and the GND - these are inputs for the PCB
