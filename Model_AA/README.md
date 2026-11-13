@@ -7,19 +7,20 @@ The Protective Earth (PE) between the case and the PSU is not available on this 
 
 # Current functionality
 
-The adapter monitor the power good (PG) of the ATX PSU. It also monitors the 5V rail neat the the motherboard connector. This is called 5V TAP. Once both of them have been stable for specific amount of time (1 second for example) the adapter sends a valid DC OK to the VAX. Pull down resistors are incorporated to avoid dangling signals and prevent accendental startup or shutdown. The card has two diagnostic leds - greend and red.
+The adapter monitor the power good (PG) of the ATX PSU. It also monitors the 5V rail neat the the motherboard connector. This is called 5V TAP. Once both of them have been stable for specific amount of time (1 second for example) the adapter sends a valid DC OK to the VAX. Pull down resistors are incorporated to avoid dangling signals and prevent accendental startup or shutdown. The card has two diagnostic leds - greend and red. TODO
 
 # How to build
 
-* find a compatible ATX power supply ...
+* find a compatible ATX power supply ... Availabe ... TODO
 * Print pcb
-* Check BOM, order components
+* Check BOM, order components TODO
 * Order [DS1188 ATX splitter](https://www.amazon.com/clp/B01NBU2C64). Other splitters might be cheaper, but this one is the only one that seems to have really tick tracks that can sustain hight current. Ordering to Europe is expensive.
 * Solder the electronic components
 * Check [warnings section](https://github.com/toncho11/retro_psu_adapter/blob/main/Model_AA/README.md#warnings)!!!
 * Compile and install firmware on the Arduino Nano
-* Tap into the 5V near the motherboard's connector and the GND - these are inputs on the PCB
-* Calibrate the TAP 5V - ...
+* Connect the male 14 pin connector to both DS1188 and the ATX adapter. Use pins provided in the doc ... TODO for the DS118 and the PCB labels. 
+* Tap into the 5V near the motherboard's connector and the GND - these are inputs for the PCB
+* Calibrate the TAP 5V - ... TODO
 * Test before connecting to a motherboard
 
 # Warnings and important notes (including hardware and personal **safety** and software)
