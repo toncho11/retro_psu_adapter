@@ -5,8 +5,9 @@ Model AA is primary designed for the DEC Vax station 3100 M38, but can be used f
 <img src="images/20261108_111525.jpg" alt="Model AA" width="500"> 
 The Protective Earth (PE) between the case and the PSU is not available on this photo. More images are available at: <a href="https://github.com/toncho11/retro_psu_adapter/tree/main/Model_AA/images">Images</a>
 
-# Current firmware functionality
-gsgddfgdfgd
+# Current functionality
+
+The adapter monitor the power good (PG) of the ATX PSU. It also monitors the 5V rail neat the the motherboard connector. This is called 5V TAP. Once both of them have been stable for specific amount of time (1 second for example) the adapter sends a valid DC OK to the VAX. Pull down resistors are incorporated to avoid dangling signals and prevent accendental startup or shutdown. The card has two diagnostic leds - greend and red.
 
 # How to build
 
