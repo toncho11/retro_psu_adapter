@@ -1,6 +1,11 @@
 /*
  * VAXstation 3100 ATX / DCOK controller
  *
+ * WARNING: This firmware uses ATmega328P-specific low-level registers
+ * and interrupts (PINB, PORTB, PCINT0_vect). It may not work on
+ * other Arduino variants without modification. Verify compatibility
+ * and DCOK behavior before use.
+ *
  * D11 = ATX PWR_OK
  * A0  = VAX +5V sense (47k / 10k divider)
  * D12 = DCOK control
