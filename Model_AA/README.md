@@ -11,6 +11,7 @@ The adapter monitor the power good (PG) of the ATX PSU. It also monitors the 5V 
 
 # How to build
 
+* check the [VAX 3100 M38 PSU doc](https://github.com/toncho11/retro_psu_adapter/blob/main/docs/vax_3100_m38/vax_3100_M38_doc.md)
 * find a compatible ATX power supply ... Availabe ... TODO
 * Print pcb
 * Check BOM, order components TODO
